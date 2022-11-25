@@ -1,0 +1,15 @@
+Char* StrCpy(char *src)  //形参
+{
+	int n = len(src);
+	int i,j = 0;
+	char * dest;
+	dest = (char *)malloc(sizeof(a));
+ 
+	for(i = 0; i < n; i++)
+	{
+		dest[j++] = src[i];
+		
+	}
+	
+	return dest;
+}
